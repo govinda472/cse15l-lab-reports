@@ -18,5 +18,31 @@ Step 3: wait until the installation is complete
 step 1: open Visual studio code and select new terminal
 ![image](https://user-images.githubusercontent.com/75463270/211932380-5f2b88ea-dabc-43bf-8215-062e895586a1.png)
 
-step 2: type the following code the terminal 
->ssh 
+step 2: type the following code into the terminal 
+>ssh [your cse username]@ieng6.ucsd.edu
+
+Then type your password into the terminal and press enter,it will connect you to the server remotely
+
+![image](https://user-images.githubusercontent.com/75463270/212562108-4dedbc51-7c4e-4f02-b899-4eb6540d80f6.png)
+
+## Trying Some Commands
+try typing in some of the codes down below into your terminal and see what it does
+
+>cd ~
+
+>cd
+
+>ls -lat
+
+>ls -a
+
+>ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
+
+  >cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+
+ >cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  
+  you can visualize the effects of following codes down below
+  
+  ![image](https://user-images.githubusercontent.com/75463270/212562755-3732a279-206e-4815-b5c5-9d8bf4420bd4.png)
+
