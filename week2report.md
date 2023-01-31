@@ -110,7 +110,7 @@ my code used to run the server
                                  
 ```
                                   
-  >the fix removed the issue where the wrong list was being reversed and makes sure the right list is being return
+  >the fix removed the issue where the wrong list was being reversed and makes sure the right list is being return, The symptons are gone after the fix 
   
   
   
