@@ -56,7 +56,61 @@ my code used to run the server
 # part 2
   
   
-
+```
+# code block
+>Following induces a failure
+  
+  @Test
+  public void testReversed_1() {
+  
+ int[] input1 = {1,2,3 };
+     ArrayExamples.reverseInPlace(input1);
+     assertArrayEquals(new int[]{ 3,2,1 }, input1);
+    }
+  
+>the following test deosn't induce a failure
+  
+ @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+ ``` 
+  
+> the symptom
+  
+ ![image](https://user-images.githubusercontent.com/75463270/215696522-c0a3eea4-1c4b-419b-8086-de477fc6e5cf.png)
+  
+>The bug in the code was caused by misplacement of arr[i] = newArray[arr.length - i - 1]; as it should have been newArray[i] = arr[arr.length - (i+1) ];
+  
+```
+# code block
+  
+> before fix
+  
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+                                  
+> after fix
+  
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - (i+1) ];
+    }
+    return newArray;
+  }
+                                                                                       
+                                 
+```
+                                  
+  >the fix removed the issue where the wrong list was being reversed and makes sure the right list is being return
   
   
   
