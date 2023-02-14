@@ -157,3 +157,8 @@ to search through everything.
 
 
 ```
+
+
+> sources for my findings above are from 
+> https://phoenixnap.com/kb/grep-command-linux-unix-examples
+>  and I tested these functions on the written_2 from the git hub directory
