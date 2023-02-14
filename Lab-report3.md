@@ -19,9 +19,7 @@ That joint make-believe with adults is such great fun is undoubtedly a major rea
 
 
 explantion: the command grep searches for all parapgrahs containing the string night in CH4.txt and outputs it.
-```
 
-```
 example 2:
 input:
 68$ grep night CH4.txt ch2.txt ch7.txt 
@@ -54,9 +52,6 @@ CH4.txt
 ch2.txt
 ch7.txt
 
-explanation: grep -l (string) searches for the all files with the string and returns the file names. It is useful for locating files that contain the string.
-```
-```
 example 2
 input:
 76$ grep -l rice *
@@ -114,8 +109,19 @@ chZ.txt:0
 
 explantion: it searches through all the files in the directory for the string.
 if it finds it, the count value of the text file is incremented.
-then it returns the count values of all the files, and the number represents the number of times
-the string 
+then it returns the count values of all the files, and the number represents the number of times the string appears in the file
+this function is super useful for determing number of times a string appears in a directory and in each file specifically. 
 
 ```
 
+## option 4: grep -r (string) *
+
+```
+example 1:
+
+
+
+
+
+
+```
