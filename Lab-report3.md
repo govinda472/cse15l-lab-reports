@@ -35,7 +35,8 @@ Sarah, and me.”
 ch7.txt:Children display wide individual differences in the quality of their sibling ties. Once again, temperament makes a difference. For example, arguments between siblings increase when one child is emotionally intense and highly active.39 But parents can do much to foster favorable sibling interaction. During the preschool years, mothers tend to be more positive and playful with second-borns than ﬁrst-borns, and they discipline the older child more.40 This differential treatment is understandable, in that older children are more competent and capable, so parents expect more. But being older also means more privileges—for example, being able to stay overnight at a friend’s house or enroll in certain after-school activities and lessons. These advantages may help compensate for an older child’s perception that a younger sibling is receiving better treatment.
 
 
-explantion: the command grep searches through multiple files(CH4.txt ch2.txt ch7.txt) for parapgrahs containing the 
+explantion: the command grep searches through multiple files(CH4.txt ch2.txt ch7.txt) for 
+parapgrahs containing the 
 string night in and outputs it. 
 It is usefull for searching multiple files that contain the string
 ```
@@ -161,7 +162,10 @@ to search through everything.
 
 
 > sources for my findings above are from 
+
 > https://phoenixnap.com/kb/grep-command-linux-unix-examples
+
+
 >  and I tested these functions on the written_2 from the git hub directory
 
 
