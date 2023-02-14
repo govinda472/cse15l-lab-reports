@@ -37,5 +37,85 @@ Sarah, and me.”
 ch7.txt:Children display wide individual differences in the quality of their sibling ties. Once again, temperament makes a difference. For example, arguments between siblings increase when one child is emotionally intense and highly active.39 But parents can do much to foster favorable sibling interaction. During the preschool years, mothers tend to be more positive and playful with second-borns than ﬁrst-borns, and they discipline the older child more.40 This differential treatment is understandable, in that older children are more competent and capable, so parents expect more. But being older also means more privileges—for example, being able to stay overnight at a friend’s house or enroll in certain after-school activities and lessons. These advantages may help compensate for an older child’s perception that a younger sibling is receiving better treatment.
 
 
-explantion: the command grep searches through multiple files(CH4.txt ch2.txt ch7.txt) for parapgrahs containing the string night in and outputs it.
+explantion: the command grep searches through multiple files(CH4.txt ch2.txt ch7.txt) for parapgrahs containing the string night in and outputs it. 
+It is usefull for searching multiple files that contain the string
 ```
+
+## option 2: grep -l (string) *
+
+```
+example 1
+
+input:
+69$ grep -l night *
+
+output:
+CH4.txt
+ch2.txt
+ch7.txt
+
+explanation: grep -l (string) searches for the all files with the string and returns the file names. It is useful for locating files that contain the string.
+```
+```
+example 2
+input:
+76$ grep -l rice *
+output:
+chB.txt
+
+explanation: it searches through all the files in the directory for the string rice and outputs the file containing it.
+it is useful for locating the files containing the string
+```
+## option 3: grep -c (string) *
+
+```
+example 1:
+input:
+78$ grep -c night *
+
+output:
+
+chA.txt:2
+chB.txt:6
+chC.txt:0
+chL.txt:4
+chM.txt:5
+chN.txt:1
+chO.txt:0
+chP.txt:2
+chQ.txt:0
+chR.txt:3
+chV.txt:0
+chW.txt:0
+chY.txt:0
+chZ.txt:1
+
+example 2:
+
+input:
+$ grep -c mice  *
+
+output:
+chA.txt:0
+chB.txt:0
+chC.txt:0
+chL.txt:0
+chM.txt:0
+chN.txt:0
+chO.txt:0
+chP.txt:0
+chQ.txt:0
+chR.txt:0
+chV.txt:0
+chW.txt:0
+chY.txt:0
+chZ.txt:0
+
+
+explantion: it searches through all the files in the directory for the string.
+if it finds it, the count value of the text file is incremented.
+then it returns the count values of all the files, and the number represents the number of times
+the string 
+
+```
+
