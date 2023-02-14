@@ -151,7 +151,9 @@ Kauffman/ch9.txt:This gedankenexperiment is important, for the exchange ratio of
 
 
 explanation: It searches through all the files in the subdirectories for paragraphs containing the string
-then it returns all the parapgrahs containing the string 
+then it returns all the parapgrahs containing the string.
+The function is useful for searching through all the files in the directory and the subdirectory. so you don't have to change directory
+to search through everything. 
 
 
 ```
