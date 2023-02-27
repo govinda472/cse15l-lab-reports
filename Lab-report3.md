@@ -1,9 +1,4 @@
-
-pre code,  /* stackoverflow */
-.md:not(.use-csslab) pre code
- {
-  white-space: pre-wrap;
-}
+I put output out of the codeblock since it was not wrapping properly
 
 # Lab Report 3
 > the function grep is most commonly used to find strings in a file but there are several ways to implement it
@@ -15,7 +10,7 @@ example 1:
 
  input: 
  67$ grep night CH4.txt
-
+````
 output:
 
 In extreme circumstances, when the organization and predictability of the real world fall apart, young children 
@@ -46,11 +41,11 @@ parent–child play, make-believe themes are more varied, and parents’ verbal 
 
 
 explantion: the command grep searches for all parapgrahs containing the string night in CH4.txt and outputs it.
-
+```
 example 2:
 input:
 68$ grep night CH4.txt ch2.txt ch7.txt 
-
+```
 output:
 CH4.txt:In extreme circumstances, when the organization and predictability of the real world fall apart, young children whose prior lives have been ﬁlled with parental
 warmth and involvement often call on rules and rituals in make-believe to restore their social world. Recently, I came across the recollections of Alice Cahana, an 
@@ -97,7 +92,7 @@ explantion: the command grep searches through multiple files(CH4.txt ch2.txt ch7
 parapgrahs containing the 
 string night in and outputs it. 
 It is usefull for searching multiple files that contain the string
-```
+
 
 ## option 2: grep -l (string) *
 
@@ -181,6 +176,7 @@ example 1:
 
 input:
 89$ grep -r mansion *
+```
 output:
 
 Rybczynski/ch3.txt:Stylistic consistency is much admired today, but it was not always so. In 1419, Filippo Brunelleschi began the Foundling Hospital in Florence, 
@@ -206,10 +202,11 @@ more than fifty projects.
 
 
 
-
+```
 example 2:
 input:
 94$ grep -r colony *
+```
 output:
 Castro/chP.txt:Their primary religious ceremonies commemorated the passion and death of Jesus Christ, during the celebrations of Semana Santa, 
 “Holy Week.” It is speculated that the starting date of the brotherhood is somewhere between 1790 and 1810. The origins of Los Penitentes have been debated for 
@@ -266,7 +263,7 @@ The function is useful for searching through all the files in the directory and 
 to search through everything. 
 
 
-```
+
 
 
 > sources for my findings above are from 
