@@ -101,28 +101,29 @@ example 1
 
 input:
 69$ grep -l night *
-
+```
 output:
 CH4.txt
 ch2.txt
 ch7.txt
-
+```
 example 2
 input:
 76$ grep -l rice *
+```
 output:
 chB.txt
 
 explanation: it searches through all the files in the directory for the string rice and outputs the file containing it.
 it is useful for locating the files containing the string
-```
+
 ## option 3: grep -c (string) *
 
 ```
 example 1:
 input:
 78$ grep -c night *
-
+```
 output:
 
 chA.txt:2
@@ -139,12 +140,12 @@ chV.txt:0
 chW.txt:0
 chY.txt:0
 chZ.txt:1
-
+```
 example 2:
 
 input:
 $ grep -c mice  *
-
+```
 output:
 chA.txt:0
 chB.txt:0
@@ -167,7 +168,6 @@ if it finds it, the count value of the text file is incremented.
 then it returns the count values of all the files, and the number represents the number of times the string appears in the file
 this function is super useful for determing number of times a string appears in a directory and in each file specifically. 
 
-```
 
 ## option 4: grep -r (string) *
 
