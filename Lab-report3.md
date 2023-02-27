@@ -1,6 +1,11 @@
 # Lab Report 3
 > the function grep is most commonly used to find strings in a file but there are several ways to implement it
 
+pre code,  /* stackoverflow */
+.md:not(.use-csslab) pre code
+ {
+  white-space: pre-wrap;
+}
 ## option 1: grep (string) (filename)
 ```
 example 1:
@@ -10,7 +15,8 @@ example 1:
 
 output:
 
-In extreme circumstances, when the organization and predictability of the real world fall apart, young children whose prior lives have been ﬁlled with parental warmth 
+In extreme circumstances, when the organization and predictability of the real world fall apart, young children 
+whose prior lives have been ﬁlled with parental warmth 
 and involvement often call on rules and rituals in make-believe to restore their social world. Recently, I came across the recollections of Alice Cahana, 
 an elderly Holocaust survivor, recounting her days as a child in the death camp at Auschwitz. Alice explained that she and 
 her sister Edith managed despite all odds to stay together. Their secret strategy was never to display any emotion that would give away their relationship, 
