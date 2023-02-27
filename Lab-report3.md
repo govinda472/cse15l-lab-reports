@@ -1,11 +1,14 @@
-# Lab Report 3
-> the function grep is most commonly used to find strings in a file but there are several ways to implement it
 
 pre code,  /* stackoverflow */
 .md:not(.use-csslab) pre code
  {
   white-space: pre-wrap;
 }
+
+# Lab Report 3
+> the function grep is most commonly used to find strings in a file but there are several ways to implement it
+
+
 ## option 1: grep (string) (filename)
 ```
 example 1:
