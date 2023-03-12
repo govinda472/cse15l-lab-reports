@@ -62,6 +62,7 @@ The tab key helped auto complete the directory which I wanted to change into, wh
  >java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
   
   > I typed (upArrow) a few times to quickly access my old code that I used to run the test
+  
   output:
   
   ![image](https://user-images.githubusercontent.com/75463270/221779254-69d582d5-f246-46ad-b578-b32529c069aa.png)
