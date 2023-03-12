@@ -7,7 +7,7 @@ output:
 
 ![image](https://user-images.githubusercontent.com/75463270/221771032-e8985e29-8502-4775-89d5-2fdaf8e94525.png)
 
-summary:The code I ran logged in to the UCSD ieng6 server with my username.
+summary:The commands I ran logged in to the UCSD ieng6 server with my username.
 I had set up a encyrption,which reduced time that took me to log in.
 
 ## step 5: Clone your fork of the repository from your Github account
@@ -19,7 +19,7 @@ I had set up a encyrption,which reduced time that took me to log in.
 output:
 ![image](https://user-images.githubusercontent.com/75463270/221772725-81fbf042-c5c9-4226-b11a-cafc41b42784.png)
 
-summary: The code I ran cloned the files from the github link into the working directory. 
+summary: The commands I ran cloned the files from the github link into the working directory. 
 The tab key helped auto complete the directory which I wanted to change into, which is helpful for preventing typos.
   
  ## step 6: Run the tests, demonstrating that they fail
@@ -34,7 +34,7 @@ The tab key helped auto complete the directory which I wanted to change into, wh
  
   ![image](https://user-images.githubusercontent.com/75463270/221780401-48347e1c-e04e-4396-8807-012eb3fe1ef8.png)
 
-  summary: The code I ran compiled and ran the junit testers for TestListExamples file
+  summary: The commands I ran compiled and ran the junit testers for TestListExamples file
    the up enter key was useful for getting the previous line of code to be edited and the tab key was usefull for 
    autocompleting the  directory,which prevented me from making typos.
   
@@ -52,7 +52,7 @@ The tab key helped auto complete the directory which I wanted to change into, wh
   
   ![image](https://user-images.githubusercontent.com/75463270/221777537-48a51419-3068-440d-a6d7-e45ee98ce9f7.png)
   
-  summary: The code I ran opened up ListExamples.java in editor mode, which allowed me to modify it.
+  summary: The commands I ran opened up ListExamples.java in editor mode, which allowed me to modify it.
    the down and right arrows allowed me to nagivate through the code to reach the error quickly and the tab tab key allowed me to 
    auto complete the file name which sped up the modification process along with ensuring I didn't make a typo
   
@@ -67,7 +67,7 @@ The tab key helped auto complete the directory which I wanted to change into, wh
   
   ![image](https://user-images.githubusercontent.com/75463270/221779254-69d582d5-f246-46ad-b578-b32529c069aa.png)
   
-  summary: The code I ran compiled and ran the junit testers for TestListExamples file
+  summary: The commands I ran compiled and ran the junit testers for TestListExamples file
    the up enter key was useful for getting the code I used in Step 5, which allowed me to reutilize the same code that
    I had used before, saiving me time and preventing potential typos in retyping it.
   
@@ -77,5 +77,5 @@ The tab key helped auto complete the directory which I wanted to change into, wh
     >git push
      >git commit "final test"
 
- summary: The code I ran pushed and commited my fix of TestListExamples to github repo.
+ summary: The commands I ran pushed and commited my fix of TestListExamples to github repo.
  I had set up a encyrption,which reduced time that took me to log in.
